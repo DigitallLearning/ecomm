@@ -12,6 +12,7 @@ import {
   MDBBtn
 } from 'mdb-react-ui-kit';
 import { useNavigate } from "react-router-dom";
+import Footer from "./Footer";
 function Home()
 {
     const [apidata,setapidata]=useState([])
@@ -60,6 +61,7 @@ function Home()
             )
          }
     </MDBRow>
+    <Footer></Footer>
     </div>
    )
 }

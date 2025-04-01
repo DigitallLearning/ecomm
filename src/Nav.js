@@ -8,6 +8,7 @@ import Jwellery from './Jwellery';
 import Men from './Men';
 import Woman from './Woman';
 import Card from './Card';
+import { MDBBtn } from 'mdb-react-ui-kit';
 
 function NavBar1() {
   return (
@@ -20,8 +21,9 @@ function NavBar1() {
             <Nav.Link href="/electronics">Electronics</Nav.Link>
             <Nav.Link href="/jwellery">Jwellery</Nav.Link>
             <Nav.Link href="/men">Men Cloths</Nav.Link>
-            <Nav.Link href="/woman">Woman Cloths</Nav.Link>
-            
+            <Nav.Link href="/woman">Woman Cloths</Nav.Link>&nbsp;&nbsp;&nbsp;
+            <MDBBtn>Login</MDBBtn>&nbsp;&nbsp;&nbsp;
+            <MDBBtn>Register</MDBBtn>
           </Nav>
         </Container>
       </Navbar>
